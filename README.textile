@@ -4,6 +4,8 @@ This is an example Rails 3 application to login to Github using OAuth2 and Devis
 
 For more details on Githubs OAuth2 Setup - "GitHub OAuth Busy Developer's Guide":http://gist.github.com/419219
 
+I built this so I could learn how to use OAuth2 with Github, it provides an easy base to build your own apps
+
 h2. Instructions
 
 * Clone me <code>git clone git://github.com/lloydpick/rail3_github_oauth2_devise_example.git</code>
