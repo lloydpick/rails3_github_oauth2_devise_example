@@ -4,9 +4,6 @@ Hawk::Application.routes.draw do |map|
 
   root :to => "home#index"
 
-  map.oauth_authorize '/oauth/new', :controller => 'oauth', :action => 'new'
-  map.oauth_callback '/oauth/callback', :controller => 'oauth', :action => 'callback'
-
   devise_for :users
   
   # Sample of regular route:
