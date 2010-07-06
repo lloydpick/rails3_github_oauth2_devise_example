@@ -18,6 +18,8 @@ gem 'unicorn'
 
 # Bundle the extra gems:
 gem 'oauth2', '0.0.10'
+gem 'devise', '1.1.rc2'
+gem "devise_oauth2_authenticatable", :git => "git://github.com/lloydpick/devise_oauth2_authenticatable.git"
 
 # Bundle gems for certain environments:
 # gem 'rspec', :group => :test
