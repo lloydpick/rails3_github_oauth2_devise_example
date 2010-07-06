@@ -2,7 +2,7 @@ h1. What is this?
 
 This is an example Rails 3 application to login to Github using OAuth2 and Devise
 
-For more details on Githubs OAuth2 Setup - http://gist.github.com/419219
+For more details on Githubs OAuth2 Setup - "GitHub OAuth Busy Developer's Guide":http://gist.github.com/419219
 
 h2. Instructions
 
@@ -25,8 +25,8 @@ take you off to Github, ask you to authorize, then back to your app, creating a 
 
 While testing it helps to know where you can see all your OAuth2 applications this can be found here on github...
 
-http://github.com/account/applications
+"Github OAuth2 Applications":http://github.com/account/applications
 
 If you need to see or delete your OAuth2 connections for your GitHub account you can do that here...
 
-https://github.com/account#connections_bucket
+"Github OAuth2 Client Connections":https://github.com/account#connections_bucket
