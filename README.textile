@@ -9,11 +9,11 @@ h2. Instructions
 * Clone me <code>git clone git://github.com/lloydpick/rail3_github_oauth2_devise_example.git</code>
 * Go go magic bundler <code>bundle install</code>
 
-Register for an application - http://github.com/account/applications/new - and fill in the form...
+Register for an application - "GitHub OAuth2 Application Registration":http://github.com/account/applications/new - and fill in the form...
 
-  Name:  My Super Cool App (Development)
-  Main URL:  http://localhost:8080
-  Callback URL:  http://localhost:8080/users/oauth2
+<code>Name:  My Super Cool App (Development)
+Main URL:  http://localhost:8080
+Callback URL:  http://localhost:8080/users/oauth2</code>
 
 Put the Client ID and Secret codes into the <code>config/oauth2_config.yml</code> file. By default this will have the
 <code>authorize_path</code> and <code>access_token_path</code> setup correctly for Github Auth.
@@ -21,7 +21,7 @@ Put the Client ID and Secret codes into the <code>config/oauth2_config.yml</code
 Then just boot up the app with the server of your choice and click the "Sign in with Github" link. It should
 take you off to Github, ask you to authorize, then back to your app, creating a devise user, and logging you in.
 
-== Helpful Extra's
+h2. Helpful Extra's
 
 While testing it helps to know where you can see all your OAuth2 applications this can be found here on github...
 
