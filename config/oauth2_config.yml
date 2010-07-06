@@ -1,7 +1,7 @@
 defaults: &defaults
     # Required.
-    client_id: 25f55be888db71505992
-    client_secret: 58c52cd9d2ee05e38552795032cceffdd48a132a
+    client_id: GITHUB_CLIENT_ID_HERE
+    client_secret: GITHUB_SECRET_HERE
     authorization_server: https://github.com
     requested_scope: offline_access,user
     authorize_path: /login/oauth/authorize

@@ -1,4 +1,4 @@
-Hawk::Application.routes.draw do |map|
+GithubOauth::Application.routes.draw do |map|
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
