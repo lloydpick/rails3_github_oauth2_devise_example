@@ -2,9 +2,13 @@ Hawk::Application.routes.draw do |map|
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
+  root :to => "home#index"
+
   map.oauth_authorize '/oauth/new', :controller => 'oauth', :action => 'new'
   map.oauth_callback '/oauth/callback', :controller => 'oauth', :action => 'callback'
 
+  devise_for :users
+  
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
